@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>- name: Symlink ${1:what to what.}
+  file:
+    src: "${2:/absolute/remote/path}"
+    dest: "${3:/absolute/remote/path}"
+    state: link</string>
+	<key>name</key>
+	<string>symlink task</string>
+	<key>scope</key>
+	<string>source.yaml</string>
+	<key>tabTrigger</key>
+	<string>tsym</string>
+	<key>uuid</key>
+	<string>182FE7B5-9298-4967-82FB-8D7C6B0648BC</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>- name: "${1:Install dependencies.}"
+  apt:
+    name: "{{ item }}"
+    state: installed
+    with_items:
+      - $0
+</string>
+	<key>name</key>
+	<string>apt task items</string>
+	<key>scope</key>
+	<string>source.yaml</string>
+	<key>tabTrigger</key>
+	<string>tapti</string>
+	<key>uuid</key>
+	<string>681B83F1-651C-4A6D-BBEE-1A2218A3AC7C</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>ynfgboryhf@znp.pbz</string>
+	<key>contactName</key>
+	<string>Michael Johnston</string>
+	<key>description</key>
+	<string>Snippets for Ansible</string>
+	<key>name</key>
+	<string>Ansible</string>
+	<key>uuid</key>
+	<string>3D2DE1B9-25E5-4057-BEFC-3091F7F59433</string>
+</dict>
+</plist>

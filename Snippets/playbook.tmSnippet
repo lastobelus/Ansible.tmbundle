@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>---
+  - hosts: ${1:all}
+  
+    tasks:
+
+    $0</string>
+	<key>name</key>
+	<string>playbook</string>
+	<key>scope</key>
+	<string>source.yaml</string>
+	<key>tabTrigger</key>
+	<string>pb</string>
+	<key>uuid</key>
+	<string>0575DA01-3DDE-4ED5-B721-699F8B43167B</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>- name: ${1:Describe task with a sentence.}
+  template:
+    src: "${2:local/path}.j2"
+    dest: "${3:/absolute/remote/path}"
+    owner: ${4:root}
+    group: ${5:root}
+    mode: ${6:0644}</string>
+	<key>name</key>
+	<string>template task</string>
+	<key>scope</key>
+	<string>source.yaml</string>
+	<key>tabTrigger</key>
+	<string>ttem</string>
+	<key>uuid</key>
+	<string>BE3D1ED0-2B74-4554-B327-C03CC6E3A1D0</string>
+</dict>
+</plist>

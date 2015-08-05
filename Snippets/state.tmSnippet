@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>state: ${1|present,absent,installed,uninstalled,started,stopped,restarted,directory|}</string>
+	<key>name</key>
+	<string>state</string>
+	<key>scope</key>
+	<string>source.yaml</string>
+	<key>tabTrigger</key>
+	<string>s</string>
+	<key>uuid</key>
+	<string>177F759E-E2B2-49A5-AE2A-0A55FC2B09D3</string>
+</dict>
+</plist>

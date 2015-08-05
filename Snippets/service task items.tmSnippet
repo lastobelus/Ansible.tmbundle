@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>- name: ${1:Describe task with a sentence.}
+  service:
+    name: "{{ item }}"
+    state: ${2|started,stopped,restarted,reloaded|}
+    enabled: ${3|yes,no|}}
+    with_items:
+      - $0</string>
+	<key>name</key>
+	<string>service task items</string>
+	<key>scope</key>
+	<string>source.yaml</string>
+	<key>tabTrigger</key>
+	<string>tseri</string>
+	<key>uuid</key>
+	<string>298705F5-72F2-4E87-822D-2CC7E77F3578</string>
+</dict>
+</plist>
